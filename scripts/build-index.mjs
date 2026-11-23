@@ -25,7 +25,7 @@ const git = (...args) => execFileSync('git', args, {
 }).trim()
 
 function resolveRepoUrl() {
-  const fallback = 'https://github.com/wuxinyang/dsh-td-studio.git'
+  const fallback = 'https://github.com/faithgithub/dsh-td-studio.git'
   try {
     const origin = git('remote', 'get-url', 'origin')
     const match = origin.match(/github\.com[:/]([^/]+)\/([^/]+?)(?:\.git)?$/)

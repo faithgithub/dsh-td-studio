@@ -39,7 +39,7 @@
 2. In **Discover**, add this index URL:
 
    ```
-   https://raw.githubusercontent.com/wuxinyang/dsh-td-studio/main/market/index.json
+   https://raw.githubusercontent.com/faithgithub/dsh-td-studio/main/market/index.json
    ```
 
 3. Search for `tdengine`, install **dsh-td-studio**, then choose **Enable now**.
@@ -49,13 +49,13 @@
 In **Plugins → Add plugin**, paste the repository URL:
 
 ```
-https://github.com/wuxinyang/dsh-td-studio
+https://github.com/faithgithub/dsh-td-studio
 ```
 
 Or from the CLI:
 
 ```bash
-dsh plugin add https://github.com/wuxinyang/dsh-td-studio
+dsh plugin add https://github.com/faithgithub/dsh-td-studio
 ```
 
 ### Option C — Local development link

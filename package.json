@@ -54,11 +54,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wuxinyang/dsh-td-studio.git"
+    "url": "git+https://github.com/faithgithub/dsh-td-studio.git"
   },
-  "homepage": "https://github.com/wuxinyang/dsh-td-studio#readme",
+  "homepage": "https://github.com/faithgithub/dsh-td-studio#readme",
   "bugs": {
-    "url": "https://github.com/wuxinyang/dsh-td-studio/issues"
+    "url": "https://github.com/faithgithub/dsh-td-studio/issues"
   },
   "author": "wuxinyang",
   "license": "MIT"

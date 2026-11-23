@@ -39,7 +39,7 @@
 2. 在 **Discover** 中添加索引地址：
 
    ```
-   https://raw.githubusercontent.com/wuxinyang/dsh-td-studio/main/market/index.json
+   https://raw.githubusercontent.com/faithgithub/dsh-td-studio/main/market/index.json
    ```
 
 3. 搜索 `tdengine`，安装 **dsh-td-studio**，点击 **立即启用**。
@@ -49,13 +49,13 @@
 在 **插件 → 添加插件** 中粘贴仓库地址：
 
 ```
-https://github.com/wuxinyang/dsh-td-studio
+https://github.com/faithgithub/dsh-td-studio
 ```
 
 或使用命令行：
 
 ```bash
-dsh plugin add https://github.com/wuxinyang/dsh-td-studio
+dsh plugin add https://github.com/faithgithub/dsh-td-studio
 ```
 
 ### 方式 C —— 本地开发链接
