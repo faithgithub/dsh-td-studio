@@ -1,0 +1,65 @@
+{
+  "name": "dsh-td-studio",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: AI-native TDengine workbench with ECharts dashboard, read-only SQL, natural-language query and anomaly insights.",
+  "type": "module",
+  "main": "src/host.js",
+  "exports": {
+    ".": "./src/host.js",
+    "./client": "./src/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "locale",
+    "market",
+    "scripts",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.1-rc.5 <0.3.0"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "tdengine",
+    "timeseries",
+    "time-series-database",
+    "sql",
+    "dashboard",
+    "echarts",
+    "natural-language-sql",
+    "anomaly-detection",
+    "ai"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuxinyang/dsh-td-studio.git"
+  },
+  "homepage": "https://github.com/wuxinyang/dsh-td-studio#readme",
+  "bugs": {
+    "url": "https://github.com/wuxinyang/dsh-td-studio/issues"
+  },
+  "author": "wuxinyang",
+  "license": "MIT"
+}

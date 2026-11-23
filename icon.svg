@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="TDengine Studio">
+  <rect width="64" height="64" rx="14" fill="#16181d"/>
+  <g fill="none" stroke="#3b82f6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="23" cy="19" rx="10" ry="4.5"/>
+    <path d="M13 19v9c0 2.5 4.5 4.5 10 4.5s10-2 10-4.5v-9"/>
+    <path d="M13 28v9c0 2.5 4.5 4.5 10 4.5s10-2 10-4.5v-9"/>
+  </g>
+  <path d="M37 41l6-9 5 6 8-13" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

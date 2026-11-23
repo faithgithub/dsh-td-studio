@@ -1,0 +1,4 @@
+# dsh-td-studio bundle patch：智能工作台，直连 TDengine 提供客户端 + AI 查询 + Grafana Dashboard + 洞察
+- insert:
+    - id: dsh-td-studio
+      name: dsh-td-studio
