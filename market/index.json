@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "title": {
+    "en": "TDengine Studio",
+    "zh": "TDengine 智能工作台"
+  },
+  "description": {
+    "en": "AI-native TDengine plugins for DeepSeek Harness.",
+    "zh": "面向 DeepSeek Harness 的 AI 原生 TDengine 插件。"
+  },
+  "metadata": {
+    "categories": {
+      "data": {
+        "title": {
+          "en": "Data & Databases",
+          "zh": "数据与数据库"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-td-studio",
+      "title": {
+        "en": "TDengine Studio",
+        "zh": "TDengine 智能工作台"
+      },
+      "description": {
+        "en": "DeepSeek Harness plugin: AI-native TDengine workbench with ECharts dashboard, read-only SQL, natural-language query and anomaly insights.",
+        "zh": "AI 原生 TDengine 工作台：ECharts 看板、只读 SQL、自然语言问数与异常洞察。"
+      },
+      "author": "wuxinyang",
+      "homepage": "https://github.com/wuxinyang/dsh-td-studio#readme",
+      "repository": {
+        "url": "https://github.com/wuxinyang/dsh-td-studio"
+      },
+      "icon": "../icon.svg",
+      "metadata": {
+        "category": "data",
+        "keywords": [
+          "tdengine",
+          "timeseries",
+          "sql",
+          "dashboard",
+          "echarts",
+          "natural-language-sql",
+          "anomaly-detection",
+          "ai"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795451492,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/wuxinyang/dsh-td-studio.git",
+            "commit": "752e16dd20e7be60b6723b0a5bd98aca9d278430"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}

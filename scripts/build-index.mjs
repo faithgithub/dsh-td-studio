@@ -18,7 +18,11 @@ import { fileURLToPath } from 'node:url'
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'))
 
-const git = (...args) => execFileSync('git', args, { cwd: root, encoding: 'utf8' }).trim()
+const git = (...args) => execFileSync('git', args, {
+  cwd: root,
+  encoding: 'utf8',
+  stdio: ['ignore', 'pipe', 'ignore'],
+}).trim()
 
 function resolveRepoUrl() {
   const fallback = 'https://github.com/wuxinyang/dsh-td-studio.git'
