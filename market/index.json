@@ -32,9 +32,9 @@
         "zh": "AI 原生 TDengine 工作台：ECharts 看板、只读 SQL、自然语言问数与异常洞察。"
       },
       "author": "wuxinyang",
-      "homepage": "https://github.com/wuxinyang/dsh-td-studio#readme",
+      "homepage": "https://github.com/faithgithub/dsh-td-studio#readme",
       "repository": {
-        "url": "https://github.com/wuxinyang/dsh-td-studio"
+        "url": "https://github.com/faithgithub/dsh-td-studio"
       },
       "icon": "../icon.svg",
       "metadata": {
@@ -53,11 +53,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1795451539,
+          "publishTimestamp": 1795451709,
           "source": {
             "type": "git",
-            "url": "https://github.com/wuxinyang/dsh-td-studio.git",
-            "commit": "4f4f4a2b1fc8f461de812168d4a44e4ea9f69530"
+            "url": "https://github.com/faithgithub/dsh-td-studio.git",
+            "commit": "f6ce43c2e771d1a2bf1023a6d1cfa8f457a22ac5"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.5 <0.3.0"
