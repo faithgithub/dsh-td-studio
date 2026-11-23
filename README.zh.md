@@ -39,7 +39,7 @@
 2. 在 **Discover** 中添加索引地址：
 
    ```
-   https://raw.githubusercontent.com/faithgithub/dsh-td-studio/main/market/index.json
+   https://faithgithub.github.io/dsh-td-studio/market/index.json
    ```
 
 3. 搜索 `tdengine`，安装 **dsh-td-studio**，点击 **立即启用**。

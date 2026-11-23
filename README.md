@@ -39,7 +39,7 @@
 2. In **Discover**, add this index URL:
 
    ```
-   https://raw.githubusercontent.com/faithgithub/dsh-td-studio/main/market/index.json
+   https://faithgithub.github.io/dsh-td-studio/market/index.json
    ```
 
 3. Search for `tdengine`, install **dsh-td-studio**, then choose **Enable now**.
