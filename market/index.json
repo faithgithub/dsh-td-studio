@@ -53,11 +53,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1795451492,
+          "publishTimestamp": 1795451539,
           "source": {
             "type": "git",
             "url": "https://github.com/wuxinyang/dsh-td-studio.git",
-            "commit": "752e16dd20e7be60b6723b0a5bd98aca9d278430"
+            "commit": "4f4f4a2b1fc8f461de812168d4a44e4ea9f69530"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.5 <0.3.0"
